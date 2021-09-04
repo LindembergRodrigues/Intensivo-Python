@@ -11,5 +11,6 @@ for nome in nomes:
 
 for chaves in dic:
 
-    print ("{nome} {sobrenome}, tem {idade} anos e mora em {endereco}".format(nome=chaves,
-            sobrenome=dic[chaves]["sobrenome"],idade=dic[chaves]["idade"], endereco = dic[chaves]["endereco"] ))
+    print("{nome} {sobrenome}, tem {idade} anos e mora em {endereco}".format(
+            nome=chaves, sobrenome=dic[chaves]["sobrenome"],
+            idade=dic[chaves]["idade"], endereco=dic[chaves]["endereco"]))

@@ -17,8 +17,9 @@ def lista_a_verificar(nomes):
             nomes.pop(i)
     return nomes
 
-lista_nomes = input("Informe os nomes a serem verificados: \nOs nomes devem ser preseguidos de vírgula e espaço"
-                    " (Ex:Fulano, Ciclano) :").split(", ")
+if __name__  == "__main__":
+    lista_nomes = input("Informe os nomes a serem verificados: \nOs nomes devem ser preseguidos de vírgula e espaço"
+                        " (Ex:Fulano, Ciclano) :").split(", ")
 
-print("Lista após a remoção dos nomes que estão contidos na regra>>", lista_a_verificar(lista_nomes[:]))
-print("Lista inicial>>", lista_nomes)
+    print("Lista após a remoção dos nomes que estão contidos na regra>>", lista_a_verificar(lista_nomes[:]))
+    print("Lista inicial>>", lista_nomes)
